@@ -1,0 +1,136 @@
+body {
+  
+  background-color:#A8A5B8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+  line-height: 200%;
+  font-family: "source-sans-pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+tr hover{
+    color:blue;
+}
+
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+
+.nav {
+  background: #303030;
+  text-align: center;
+}
+
+
+.nav ul {
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding-bottom:30px;
+}
+.nav-List{
+    float:left;
+}
+
+.nav ul li {
+  position: relative;
+  background: #303030;
+  display: block;
+  padding-left: 2px;
+  float: left;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.nav ul li a {
+  padding: 3px 17px;
+  font-weight: normal;
+  border-left: 0px solid rgba(109,109,109,.4);
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+}
+
+.searchbar{
+     margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top:15px;
+
+}
+
+#filmSearch{
+    height:36px;
+    width:400px;
+    margin-bottom:10px;
+}
+
+.movieTableSize{
+  width: 80%;
+    padding-left: 20px;
+  margin-top: 10px;
+  padding-right: 20px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  height:auto;
+  min-height:100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:beige;
+  border-radius: 14px 14px 14px 14px;
+-moz-border-radius: 14px 14px 14px 14px;
+-webkit-border-radius: 14px 14px 14px 14px;
+border: 1px solid #000000;
+}
+
+
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+
+.welcome-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  text-align:center;
+}
+
+.form-group {
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list-button{
+  width:100%;
+  height:5%;
+  border:1px solid #fff;
+    background-color:black;
+    color:#fafafa;
+}
+
+.clear_list{
+  height: 30px;
+  width: 25%;
+  display:none;
+}
+
+.seperator{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
